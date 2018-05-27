@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
+  <style>
+  html {
+      box-sizing: border-box;
+      background:url('http://padolsky-architects.com/wp-content/uploads/2016/11/ByWard-Interior1.jpg') center no-repeat;
+      background-size:cover;
+      min-height:100vh;
+      
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .wrapper {
+      opacity: .97;
+    }
+    </style>
+    
+  <title>The Draw</title>
+</head>
+
+    <div class=" wrapper mt3 mw6  h-100 center br3  bg-near-white pb4 shadow-1">
+
+      <!-- <h3 class="tc pv3 bb"></h3> -->
+      
+      
+    <h2 class="tc pv3 sans bb dark-gray">Performers</h2> 
+      <ul class=" performerList list bg-white ">
+
+        <!-- <li class="bb dotted pv3 b--light-silver"> 1. yoshi <button class="ml3 br3">x</button></li> -->
+
+      </ul>
+
+      <form action="submit" class= "add-performer">
+          
+          <input type="text" name="perf" placheholder="enter a name" class=" shadow-1 w-60 h2 ml5 mr2 br3" required>
+          <input type="submit" class=" f6 link dim br1 ph3 pv2 mb2 dib white bg-black br3" value="+ add">
+          
+        </form> 
+        
+            <button  class=" ba draw f6 p3 w-80 br3  shadow-1 mt3 center h3 dt link grow br1 ph3 pv2 mb2 dib white bg-orange" >DRAW</button>
+          
+      
+
+    </div>
+  
+  
+<script src="draw.js"></script>  
+</body>
+</html>
